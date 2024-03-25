@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,700;1,400;1,700&display=swap');
+
+
+#root {
+  font-family: "Lato", sans-serif;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.greeting {
+  color: #274939;
+}
+
+.navbar {
+  background-color: #274939; 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  height: 85px;
+  padding: 5px 10%;
+}
+
+.footer {
+ background-color: #274939;
+ padding: 80px 0;
+}
+
+.footer-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-links {
+  width: 25%;
+  padding: 0 15px;
+}
+
+.footer-links h4{
+  font-size: 20px;
+  color: #FFFFFF;
+  margin-bottom: 25px;
+  font-weight: 500;
+  border-bottom: 2px solid white;
+  padding-bottom: 10px ;
+  display: inline-block;
+}
+
+.footer ul li a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #BBBBBB;
+  display: block;
+  margin-bottom: 15px;
+  transition: all .3s ease;
+}
+
+.footer-links ul li a:hover {
+  color: #FFFFFF;
+  padding-left: 6px;
+}
+
+.social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-link a {
+  min-height: 40px;
+  width: 40px;
+  background-color: rgba(red, green, blue, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center; /* Esto no es necesario, pero si los iconos son texto, puede ser útil */
+  line-height: 40px;
+  border-radius: 50%;
+  color: #FFFFFF;
+  transition: all .5s ease;
+  font-size: 30px;
+}
+
+.social-link a:hover {
+  color: #BBBBBB;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.icon {
+  height: 70px;
+  width: auto;
+}
+
+.navbar .icon {
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.navbar .icon:hover {
+  transform: scale(1.1);
+}
+
+.navbar .listaNavBar {
+  list-style: none;
+}
+
+.navbar .listaNavBar li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.navbar .listaNavBar a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #eceff1;
+}
+
+.navbar .listaNavBar li a:hover {
+  color: #fefefe; 
+}  
+
+.cart {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cart h4 {
+  background-color: white;
+  border-radius: 50%;
+  margin-left: 10px;
+  width: 30px; 
+  height: 30px; 
+  text-align: center;
+  line-height: 30px;
+}
+
+.drop-down {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  background-color: #27493988;
+  margin-top: 0;
+  padding-top: 8px;
+  padding-bottom: 8px ;
+}
+
+
+.drop-down img {
+  max-height: 100px;
+  max-width: 100px;
+  filter: grayscale(85%);
+  transition: all 0.3s;
+}
+
+.drop-down img:hover {
+  filter: grayscale(0%);
+  cursor: pointer;  
+}
+
+.nav-link.active img {
+  filter: grayscale(0%);
+}
