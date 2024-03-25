@@ -38,7 +38,7 @@ VITE_REACT_APP_messagingSenderId=236193238472
 VITE_REACT_APP_appId=1:236193238472:web:af0e6ead2930b0458884fd
 
 ### Visualización del proyecto
-- Para visualizar el proyecto sin tener que clonarlo entre al siguiente link de Netlify [Netlify](https://mate-amargo.netlify.app/)
+- Para visualizar el proyecto sin tener que clonarlo entre al siguiente link de Netlify [Mate-Amargo](https://mate-amargo.netlify.app/)
 
 ### Contacto
 [Github](https://github.com/fcurrao/)
